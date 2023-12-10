@@ -146,8 +146,8 @@ function hitung() {
 	// Save the result to history
     const historyEntry = `
         <div id="result1">
-            <p>total Sudut Biasa seri 2: ${decimalToDMS(sudutBiasa1)} derajat</p>
-            <p>total Sudut Luar Biasa seri 2: ${decimalToDMS(sudutLuarBiasa1)} derajat</p>
+            <p>total Sudut Biasa seri 1: ${decimalToDMS(sudutBiasa1)} derajat</p>
+            <p>total Sudut Luar Biasa seri 1: ${decimalToDMS(sudutLuarBiasa1)} derajat</p>
         </div>
         <div id="result2">
             <p>total Sudut Biasa seri 2: ${decimalToDMS(sudutBiasa2)}</p>
