@@ -122,10 +122,10 @@ function hitung() {
 
 	document.getElementById("all-result").innerHTML = `
         <div id="result1">
-            <p>total Sudut Biasa seri 2: ${decimalToDMS(
+            <p>total Sudut Biasa seri 1: ${decimalToDMS(
 							sudutBiasa1
 						)} derajat</p>
-            <p>total Sudut Luar Biasa seri 2: ${decimalToDMS(
+            <p>total Sudut Luar Biasa seri 1: ${decimalToDMS(
 							sudutLuarBiasa1
 						)} derajat</p>
         </div>
