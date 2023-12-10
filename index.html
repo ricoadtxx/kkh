@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Website Kece</title>
+    </head>
+
+    <body>
+        <section>
+            <div class="sudut-seri1">
+                <h1>Seri 1</h1>
+                <div class="titik-1">
+                    <p>TITK 1</p>
+                    <label class="biasa" for="derajat-biasa-1">Sudut Biasa :
+                        <span><input type="number" id="derajat-biasa-1"></span>
+                        <span><input type="number" id="menit-biasa-1"></span>
+                        <span><input type="number" id="detik-biasa-1"></span>
+                    </label>
+                    <label class="luar-biasa" for="derajat-luar-1">Sudut Luar Biasa :
+                        <span><input type="number" id="derajat-luar-1"></span>
+                        <span><input type="number" id="menit-luar-1"></span>
+                        <span><input type="number" id="detik-luar-1"></span>
+                    </label>
+                </div>
+                <div class="titik-2">
+                    <p>TITIK 2</p>
+                    <label class="biasa" for="derajat-biasa-2">Sudut Biasa :
+                        <span><input type="number" id="derajat-biasa-2"></span>
+                        <span><input type="number" id="menit-biasa-2"></span>
+                        <span><input type="number" id="detik-biasa-2"></span>
+                    </label>
+                    <label class="luar-biasa" for="derajat-luar-2">Sudut Luar Biasa :
+                        <span><input type="number" id="derajat-luar-2"></span>
+                        <span><input type="number" id="menit-luar-2"></span>
+                        <span><input type="number" id="detik-luar-2"></span>
+                    </label>
+                </div>
+
+            </div>
+            <div class="sudut-seri2">
+                <h1>Seri 2</h1>
+                <div class="titik-1">
+                    <p>TITIK 1</p>
+                    <label class="biasa" for="derajat-biasa-3">Sudut Biasa :
+                        <span><input type="number" id="derajat-biasa-3"></span>
+                        <span><input type="number" id="menit-biasa-3"></span>
+                        <span><input type="number" id="detik-biasa-3"></span>
+                    </label>
+                    <label class="luar-biasa" for="derajat-luar-3">Sudut Luar Biasa :
+                        <span><input type="number" id="derajat-luar-3"></span>
+                        <span><input type="number" id="menit-luar-3"></span>
+                        <span><input type="number" id="detik-luar-3"></span>
+                    </label>
+                </div>
+                <div class="titik-2">
+                    <p>TITIK 2</p>
+                    <label class="biasa" for="derajat-biasa-4">Sudut Biasa :
+                        <span><input type="number" id="derajat-biasa-4"></span>
+                        <span><input type="number" id="menit-biasa-4"></span>
+                        <span><input type="number" id="detik-biasa-4"></span>
+                    </label>
+                    <label class="luar-biasa" for="derajat-luar-4">Sudut Luar Biasa :
+                        <span><input type="number" id="derajat-luar-4"></span>
+                        <span><input type="number" id="menit-luar-4"></span>
+                        <span><input type="number" id="detik-luar-4"></span>
+                    </label>
+                </div>
+            </div>
+        </section>
+        <div id="all-result">
+            <div id="result2"></div>
+            <div id="result1"></div>
+            <div id="rata-rata"></div>
+            <div id="hasilPerbandingan"></div>
+        </div>
+        <button onclick="hitung()">Hitung</button>
+        <button onclick="showModal()">riwayat</button>
+        <div id="all-result-modal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <div id="modal-history"></div>
+                <button onclick="clearHistory()">Hapus Riwayat</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+
+</html>
